@@ -12,8 +12,19 @@ a docker or singularity.
 To build the Docker image, navigate to the directory containing the Dockerfile and run the following command:
 
 ```bash
-docker build -t bcl-convert .
+# clone this repo and navigate into the main directory
+docker build -t bcl-convert-docker .
 ```
+
+## Getting the container from docker hub
+
+Instead of building you may want to get the container
+from the dockerhub repo:
+
+```bash
+docker run chaetognatha/bcl-convert:latest
+```
+
 
 ## Running the Docker image
 
